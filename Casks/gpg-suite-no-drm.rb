@@ -7,7 +7,7 @@ cask 'gpg-suite-no-drm' do
   name 'GPG Suite No DRM'
   homepage 'https://github.com/GpgMailNoActivation/GpgMailNoActivation'
 
-  depends_on macos: '>= sierra'
+  depends_on macos: '>= :sierra'
   depends_on cask: 'gpg-suite'
   conflicts_with cask: 'gpg-suite-no-mail'
 
